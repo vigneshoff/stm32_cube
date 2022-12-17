@@ -27,6 +27,21 @@ APB1 timer clock is 275MHz
 
 It will give 1ms delay
 
+
+***Configure Prescalar and Counter Period***
+
+![image](https://user-images.githubusercontent.com/91674428/208249022-e65e35f5-11ef-4ce7-a383-f6e53cc60884.png)
+
+***Enable Gloabl Interrupt***
+
+![image](https://user-images.githubusercontent.com/91674428/208249034-ce2ccd9a-11b2-4080-90b7-48e261732ee8.png)
+
+***Ref clock tree***
+
+![image](https://user-images.githubusercontent.com/91674428/208249040-645823a1-226f-4411-9845-fb3c2d61b8e4.png)
+
+
+
 We can have callback to do some operation once 1ms completed
 
 ```
