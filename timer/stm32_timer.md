@@ -40,7 +40,10 @@ It will give 1ms delay
 
 ![image](https://user-images.githubusercontent.com/91674428/208249040-645823a1-226f-4411-9845-fb3c2d61b8e4.png)
 
-
+Need to start the timer
+```
+HAL_TIM_Base_Start_IT (&htim14);
+```
 
 We can have callback to do some operation once 1ms completed
 
@@ -48,8 +51,7 @@ We can have callback to do some operation once 1ms completed
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 {
 	if (htim == &htim14) {
-		One_MS_Completed = true;
-		HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_4);	//this pin we can toggle and check
+		HAL_GPIO_TogglePin(GPIOE, GPIO_PIN_4);	/* We can measuare 1ms delay on this pin*/
 	}
 }
 ```
