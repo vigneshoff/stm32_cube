@@ -87,3 +87,4 @@ For 1s delay
 
 	CP = 10000-1
 ```
+![image](https://user-images.githubusercontent.com/91674428/209430837-e2d33f33-82bc-4f3c-b405-fdd127f4cc44.png)
