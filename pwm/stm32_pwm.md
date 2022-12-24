@@ -1,5 +1,7 @@
 ***IC – stm32h735zgt6 - LQFP144***
 
+***NOTE: The example code is done for TIM3 CHANNEL4, but the explanation given for TIM1 CHANNEL1***
+
 Configure PA8 with 5KHz PWM
 
 PA8 – TIM1 (16 bit)
@@ -141,3 +143,10 @@ But some time it worked without Clock Source too, not sure
  
 
 ![image](https://user-images.githubusercontent.com/91674428/208280825-53fb3613-23fc-4ace-b621-171d7053897b.png)
+
+
+50% duty cycle
+![image](https://user-images.githubusercontent.com/91674428/209432548-591e6a3f-63cb-4c53-aaa1-37d50ddca2c6.png)
+
+75% duty cycle
+![image](https://user-images.githubusercontent.com/91674428/209432554-866b20cc-2295-480f-aeb1-b101a455b80a.png)
